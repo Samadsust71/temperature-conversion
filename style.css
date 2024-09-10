@@ -6,7 +6,7 @@
 }
 
 body{
-    background: hsla(0, 0%, 100%, 0.849);
+    background: hsla(0, 8%, 74%, 0.849);
 }
 .temp-converter-container{
     display: flex;
@@ -17,7 +17,7 @@ body{
     
 }
 .temp-converter-container form{
-      background: white;
+      background: rgb(255, 255, 255);
       padding: 20px;
       border-radius: 8px;
       box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.301);
@@ -62,4 +62,13 @@ h1{
 }
 .result-container h3 ,p{
     color: rgb(71, 5, 5);
+}
+
+@media screen  and (max-width: 576px) {
+    .temp-converter-container{
+        padding: 100px 10px;
+    }
+    #inputText{
+        width: 70%;
+    }
 }
